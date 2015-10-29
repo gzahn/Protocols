@@ -8,9 +8,11 @@
 ### Adaptor-bound primers (for first PCR round): 
 A  (Illumina adaptor) +  PRIMER (ITS(fungal) or 16S(bacterial))
 
+![image1][PCR1]
+
 Adaptor-bound primer examples:
 ```python 
-							Adaptor	                              Primer
+							Adaptor Tag                             Primer
 ITS1f-Next   	TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG           CTTGGTCATTTAGAGGAAGTAA	
                                                             
 ITS2-Next		GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
@@ -18,6 +20,8 @@ ITS2-Next		GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
 
 ### Index primers (for second PCR round):
 For use with any product that has illumina adaptors as above.
+
+![image2][PCR2]
 
 Index primer examples:
 ```python
@@ -164,3 +168,5 @@ See the user manual for detailed instructions, but the general workflow is as fo
 [click here to download directly]:[https://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf]
 [image]:[http://vignette1.wikia.nocookie.net/villains/images/6/67/Pennywise_Evil_Grin.jpg/revision/latest?cb=20130511222536]
 [normalization plate user manual]:[https://tools.thermofisher.com/content/sfs/manuals/sequalprep_platekit_man.pdf]
+[PCR1]:[https://github.com/gzahn/Protocols/blob/master/MSQ_MID_KIT_step1.png]
+[PCR2]:[https://github.com/gzahn/Protocols/blob/master/MSQ_MID_KIT_step2.png]
