@@ -9,7 +9,7 @@
 A  (Illumina adaptor) +  PRIMER (ITS(fungal) or 16S(bacterial))
 
 Adaptor-bound primer examples:
-``` 
+```python 
 							Adaptor	                              Primer
 ITS1f-Next   	TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG           CTTGGTCATTTAGAGGAAGTAA	
                                                             
@@ -20,7 +20,7 @@ ITS2-Next		GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
 For use with any product that has illumina adaptors as above.
 
 Index primer examples:
-```
+```python
  Name 										   		 Barcode     
 i5_A501 		AATGATACGGCGACCACCGAGATCTACA  		CATCGTACG  		TCGTCGGCAGCGTC
 i7_A701			CAAGCAGAAGACGGCATACGAGAT      		AACTCTCGG  		TCTCGTGGGCTCGG
@@ -128,9 +128,30 @@ Determine the ratio of beads to use to use to exclude all fragments shorter than
 
 --------
 --------
+
+## Normalization of samples using SequalPrep Normalization Plates
+
+- Be sure to perform this step in the post-pcr area of the lab.
+- Be careful not to scrape the sides of the wells in the normalization plate, as the DNA-binding coating is adhered to the inner surface of the wells.
+- You can follow this link if you want to view the complete [normalization plate user manual].
+
+This kit is designed to eliminate the tedious step of quantification and equalization of each of your samples before pooling.  It works by binding a *fixed amount* of DNA to the sides of the wells. After binding is completed you may remove the excess amplicon solution and store it at -20°C for up to 30 days to perform additional purifications at a later time.
+
+See the user manual for detailed instructions, but the general workflow is as follows:
+1. Transfer cleaned-up PCR product into the Normalization Plate along with an equivalent amount of binding buffer.
+2. Wait for one hour.
+3. Carefully avoiding the walls of the plate with your pipette tip, remove the amplicon/buffer mixture and save in a clean 96-well plate for later use.
+4. Add 50 µL Wash Buffer to the wells, pipette up and down a few times to wash, and aspirate from the wells. Try to remove as mush wash buffer as possible.
+5. Add 20 µL Elution Buffer to each well. *Do not use water for elution.* Seal the plate with foil, vortex and spin down.
+6. Incubate at room temp for 5 minutes
+7. Transfer and pool the DNA as desired.
+
+-----------
+-----------
+
+
 *More coming soon...*
 
-- Normalization
 - BioAnalyzer prep and analysis
 - Sample Submission
 - Troubleshooting
@@ -142,4 +163,4 @@ Determine the ratio of beads to use to use to exclude all fragments shorter than
 [that spreadsheet]:[https://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx]
 [click here to download directly]:[https://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf]
 [image]:[http://vignette1.wikia.nocookie.net/villains/images/6/67/Pennywise_Evil_Grin.jpg/revision/latest?cb=20130511222536]
-
+[normalization plate user manual]:[https://tools.thermofisher.com/content/sfs/manuals/sequalprep_platekit_man.pdf]
