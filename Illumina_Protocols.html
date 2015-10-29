@@ -1,25 +1,27 @@
-﻿<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
-<h1><a id="ILLUMINA_PROTOCOLS_so_far_0"></a>ILLUMINA PROTOCOLS (so far)</h1>
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="ILLUMINA_PROTOCOLS_0"></a>ILLUMINA PROTOCOLS</h1>
 <hr>
 <hr>
-
-<p><img src="http://www.returnofkings.com/wp-content/uploads/2014/12/clown.jpg" alt="alt-text"></p>
-<h2><a id="PRIMERS_6"></a>PRIMERS:</h2>
-<h3><a id="Barcoded_Tagged_primer_8"></a>Barcoded Tagged primer:</h3>
-<p>A  (Illumina adaptor) + MID (12bp barcodes) + PAD (Bacteria only) + LINKER (2bp mismatch) +PRIMER (ITS2(fungal) or 806r(bacteria))</p>
-<p>A adaptor primer example:</p>
-<pre><code class="language-python">        Adaptor               Barcode     Linker       Primer
-CAAGCAGAAGACGGCATACGAGAT    ACGAGTGCGTAT    AG  CTTGGTCATTTAGAGGAAGTAA
+<p><img src="http://vignette1.wikia.nocookie.net/villains/images/6/67/Pennywise_Evil_Grin.jpg/revision/latest?cb=20130511222536" alt="image_broken"></p>
+<h2><a id="PRIMERS_5"></a>PRIMERS:</h2>
+<h3><a id="Adaptorbound_primers_for_first_PCR_round_7"></a>Adaptor-bound primers (for first PCR round):</h3>
+<p>A  (Illumina adaptor) +  PRIMER (ITS(fungal) or 16S(bacterial))</p>
+<p>Adaptor-bound primer examples:</p>
+<pre><code class="language-python">                            Adaptor                               Primer
+ITS1f-Next      TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG           CTTGGTCATTTAGAGGAAGTAA  
+                                                            
+ITS2-Next       GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
 </code></pre>
-<p>Tagged primers: B (Illumina adaptor) + PRIMER (ITS1f (fungal), or 515f(bacteria))</p>
-<p>B adaptor primer examples:</p>
-<pre><code class="language-python">B_adaptor       AATGATACGGCGACCACCGAGATCTACAC
-B_515F          AATGATACGGCGACCACCGAGATCTACACTATGGTAATT GT GTGCCAGCMGCCGCGGTAA
-B_its1F         AATGATACGGCGACCACCGAGATCTACACGGCTTGGTCATTTAGAGGAAGTAA
+<h3><a id="Index_primers_for_second_PCR_round_18"></a>Index primers (for second PCR round):</h3>
+<p>For use with any product that has illumina adaptors as above.</p>
+<p>Index primer examples:</p>
+<pre><code class="language-python"> Name                                                Barcode     
+i5_A501         AATGATACGGCGACCACCGAGATCTACA        CATCGTACG       TCGTCGGCAGCGTC
+i7_A701         CAAGCAGAAGACGGCATACGAGAT            AACTCTCGG       TCTCGTGGGCTCGG
 </code></pre>
 <hr>
 <hr>
-<h2><a id="2STAGE_PCR_AND_LIBRARY_PREP_29"></a>2-STAGE PCR AND LIBRARY PREP:</h2>
+<h2><a id="2STAGE_PCR_AND_LIBRARY_PREP_31"></a>2-STAGE PCR AND LIBRARY PREP:</h2>
 <ul>
 <li>Always use the correct primer pairs with an A and B adaptor.</li>
 <li>Use Hi Fidelity Hot Start Taq, and keep everything on ice to prevent bad primer-dimers from forming.</li>
@@ -28,7 +30,7 @@ B_its1F         AATGATACGGCGACCACCGAGATCTACACGGCTTGGTCATTTAGAGGAAGTAA
 These will be the same for every sample so they can be added together to the master mix.  Since we will be using the product of 22 cycles of PCR as a starting template for round 2, create your reaction conditions to pause after 22 cycles, at which point you can pull out a small amount of product for round 2, but then resume the reaction so you can do a gel check after 8 more cycles.</p>
 <p>To download a super convenient master mix calculator designed for this protocol, <a href="https://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx">click this link.</a></p>
 <p>If you like doing it the hard way, here are the reaction ingredients…</p>
-<h3><a id="1st_Round_22_cycles_39"></a>1st Round (22 cycles)</h3>
+<h3><a id="1st_Round_22_cycles_41"></a>1st Round (22 cycles)</h3>
 <table>
 <thead>
 <tr>
@@ -99,7 +101,7 @@ These will be the same for every sample so they can be added together to the mas
 <li>If the gel is successful, then the diluted PCR product from 22 cycles is added to round 2.</li>
 </ul>
 <hr>
-<h3><a id="Second_round_22_more_cycles_68"></a>Second round (22 <em>more</em> cycles)</h3>
+<h3><a id="Second_round_22_more_cycles_70"></a>Second round (22 <em>more</em> cycles)</h3>
 <ul>
 <li>Same protocol for Bacteria and Fungi</li>
 <li>Pipette 1 µL of the appropriate i5/i7 <strong>index primers</strong> from the pre-filled plates into a new clean plate</li>
@@ -171,14 +173,14 @@ These will be the same for every sample so they can be added together to the mas
 <li>Keep in mind that you now have some rather long adapter and primer sequences flanking to your amplicons as well so don’t be too worried if your bands are larger than this</li>
 </ul>
 <hr>
-<h2><a id="CLEAN_UP_YOUR_PRODUCTS_102"></a>CLEAN UP YOUR PRODUCTS</h2>
+<hr>
+<h2><a id="CLEAN_UP_YOUR_PRODUCTS_105"></a>CLEAN UP YOUR PRODUCTS</h2>
 <p>If you have significant primer dimers in your amplification you will probably want to reduce these before normalization or they could be over-represented in your normalized product.</p>
-<p>Use AMpureXP beads (we will use a home-brewed version of this: see MagNA composition in the SPRI-Bead note in the lab’s “Protocols” folder). Or <a href="https://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf">click here to download directly</a>.</p>
-<p>Determine the ratio of beads to use to use to exclude all fragments shorter than PCR product.  You can practice with different concentrations of beads on 100 bp ladder: see figure S5 in the SPRI bead note for inspiration but <strong>probably about ~0.8X will be about right</strong>. For example if using 0.8Xreaction with a sample volume of 25ul, the volume of MagNA per reaction to add will be: .8x25ul = 20ul of MagNA.</p>
-<p>Be careful to not disturb the bead pellet while pipetting</p>
+<p>Use AMpureXP beads (we will use a home-brewed version of this: see MagNA composition in the SPRI-Bead note in the lab’s “Protocols” folder). Or <a href="https://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf">click here to download directly</a>.
+Determine the ratio of beads to use to use to exclude all fragments shorter than PCR product.  You can practice with different concentrations of beads on 100 bp ladder: see figure S5 in the SPRI bead note for inspiration (probably about ~0.8X will be about right). For example if using 0.8Xreaction with a sample volume of 50ul, the volume of MagNA per reaction to add will be: .8x50ul = 40ul of MagNA.</p>
 <ol>
 <li>Make sure the beads are at room temp.</li>
-<li>Shake beads thoroughly to Resuspend any settled particules.</li>
+<li>Shake beads to Resuspend any settled particules.</li>
 <li>Add beads to PCR reaction, mix up and down x10.</li>
 <li>Incubate at room temp for 5min.</li>
 <li>Place plate on magnetic plate for 2mins. Wait for the solution to clear.</li>
@@ -194,6 +196,13 @@ These will be the same for every sample so they can be added together to the mas
 <li>Transfer the eluant to a new 96 well plate.</li>
 </ol>
 <hr>
+<hr>
 <p><em>More coming soon…</em></p>
+<ul>
+<li>Normalization</li>
+<li>BioAnalyzer prep and analysis</li>
+<li>Sample Submission</li>
+<li>Troubleshooting</li>
+</ul>
 
 </body></html>

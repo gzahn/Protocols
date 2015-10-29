@@ -1,27 +1,30 @@
 # ILLUMINA PROTOCOLS
 -----
 -----
- 
+![image_broken][image] 
 
 ## PRIMERS:
 
-### Barcoded Tagged primer: 
-A  (Illumina adaptor) + MID (12bp barcodes) + PAD (Bacteria only) + LINKER (2bp mismatch) +PRIMER (ITS2(fungal) or 806r(bacteria))
+### Adaptor-bound primers (for first PCR round): 
+A  (Illumina adaptor) +  PRIMER (ITS(fungal) or 16S(bacterial))
 
-A adaptor primer example:
+Adaptor-bound primer examples:
 ``` 
-        Adaptor	              Barcode	  Linker	   Primer
-CAAGCAGAAGACGGCATACGAGAT	ACGAGTGCGTAT	AG	CTTGGTCATTTAGAGGAAGTAA
-```
-Tagged primers: B (Illumina adaptor) + PRIMER (ITS1f (fungal), or 515f(bacteria))
-
-B adaptor primers:
-```
-B_adaptor	    AATGATACGGCGACCACCGAGATCTACAC
-B_515F 	        AATGATACGGCGACCACCGAGATCTACACTATGGTAATT GT GTGCCAGCMGCCGCGGTAA
-B_its1F	        AATGATACGGCGACCACCGAGATCTACACGGCTTGGTCATTTAGAGGAAGTAA
+							Adaptor	                              Primer
+ITS1f-Next   	TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG           CTTGGTCATTTAGAGGAAGTAA	
+                                                            
+ITS2-Next		GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
 ```
 
+### Index primers (for second PCR round):
+For use with any product that has illumina adaptors as above.
+
+Index primer examples:
+```
+ Name 										   		 Barcode     
+i5_A501 		AATGATACGGCGACCACCGAGATCTACA  		CATCGTACG  		TCGTCGGCAGCGTC
+i7_A701			CAAGCAGAAGACGGCATACGAGAT      		AACTCTCGG  		TCTCGTGGGCTCGG
+```
 
 ---------------
 ---------------
@@ -97,7 +100,8 @@ The round-2 master mix reagents are also calculated on [that spreadsheet] from a
  - Fungal ITS should be ~400 bp
  - Bacterial 16S (V4) should be ~450 bp
  - Keep in mind that you now have some rather long adapter and primer sequences flanking to your amplicons as well so don't be too worried if your bands are larger than this
- --------------
+--------------
+-----------------
 
 ## CLEAN UP YOUR PRODUCTS
 
@@ -122,11 +126,20 @@ Determine the ratio of beads to use to use to exclude all fragments shorter than
 14.	Place plate on the magnet for 1min.
 15.	Transfer the eluant to a new 96 well plate.
 
+--------
+--------
+*More coming soon...*
+
+- Normalization
+- BioAnalyzer prep and analysis
+- Sample Submission
+- Troubleshooting
+
+
 
 [calculator]:[https://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx]
 [downloaded here]:[https://github.com/gzahn/Protocols/raw/master/i5-i7_Index_Primer_Maps_Oct-25-2015.xlsx]
 [that spreadsheet]:[https://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx]
 [click here to download directly]:[https://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf]
-
-
+[image]:[http://vignette1.wikia.nocookie.net/villains/images/6/67/Pennywise_Evil_Grin.jpg/revision/latest?cb=20130511222536]
 
