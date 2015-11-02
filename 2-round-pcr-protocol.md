@@ -25,9 +25,9 @@ For use with any product that has illumina adaptors as above.
 
 Index primer examples:
 ```python
- Name 										   		 Barcode     
-i5_A501 		AATGATACGGCGACCACCGAGATCTACA  		CATCGTACG  		TCGTCGGCAGCGTC
-i7_A701			CAAGCAGAAGACGGCATACGAGAT      		AACTCTCGG  		TCTCGTGGGCTCGG
+ Name 										   		Barcode     
+i5_A501 		AATGATACGGCGACCACCGAGATCTACAC  		ATCGTACG  		TCGTCGGCAGCGTC
+i7_A701			CAAGCAGAAGACGGCATACGAGAT      		AACTCTCG  		GTCTCGTGGGCTCGG
 ```
 
 ---------------
