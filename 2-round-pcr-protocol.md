@@ -111,6 +111,10 @@ The round-2 master mix reagents are also calculated on [that spreadsheet] from a
 
 If you have significant primer dimers in your amplification you will probably want to reduce these before normalization or they could be over-represented in your normalized product. 
 
+- *Note:  This pre-normalization cleanup is not necessary if you don't have significant primer-dimer contamination in your samples*
+- *Be sure to carry out this step (if performed) and all subsequent steps in the post-PCR area of the lab*
+
+
 Use AMpureXP beads (we will use a home-brewed version of this: see MagNA composition in the SPRI-Bead note in the lab's "Protocols" folder). Or [click here to download directly].
 Determine the ratio of beads to use to use to exclude all fragments shorter than PCR product.  You can practice with different concentrations of beads on 100 bp ladder: see figure S5 in the SPRI bead note for inspiration (probably about ~0.8X will be about right). For example if using 0.8Xreaction with a sample volume of 50ul, the volume of MagNA per reaction to add will be: .8x50ul = 40ul of MagNA.
 
