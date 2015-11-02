@@ -1,0 +1,232 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="ILLUMINA_PROTOCOLS_0"></a>ILLUMINA PROTOCOLS</h1>
+<hr>
+<hr>
+<p><img src="%5Bhttp://vignette1.wikia.nocookie.net/villains/images/6/67/Pennywise_Evil_Grin.jpg/revision/latest?cb=20130511222536%5D" alt="image_broken"></p>
+<h2><a id="PRIMERS_5"></a>PRIMERS:</h2>
+<h3><a id="Adaptorbound_primers_for_first_PCR_round_7"></a>Adaptor-bound primers (for first PCR round):</h3>
+<p>A  (Illumina adaptor) +  PRIMER (ITS(fungal) or 16S(bacterial))</p>
+<p><img src="%5Bhttps://github.com/gzahn/Protocols/blob/master/MSQ_MID_KIT_step1.png%5D" alt="image1"></p>
+<p>Adaptor-bound primer examples:</p>
+<pre><code class="language-python">                            Adaptor Tag                             Primer
+ITS1f-Next      TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG           CTTGGTCATTTAGAGGAAGTAA  
+                                                            
+ITS2-Next       GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG          GCTGCGTTCTTCATCGATGC
+</code></pre>
+<h3><a id="Index_primers_for_second_PCR_round_20"></a>Index primers (for second PCR round):</h3>
+<p>For use with any product that has illumina adaptors as above.</p>
+<p><img src="%5Bhttps://github.com/gzahn/Protocols/blob/master/MSQ_MID_KIT_step2.png%5D" alt="image2"></p>
+<p>Index primer examples:</p>
+<pre><code class="language-python"> Name                                                Barcode     
+i5_A501         AATGATACGGCGACCACCGAGATCTACA        CATCGTACG       TCGTCGGCAGCGTC
+i7_A701         CAAGCAGAAGACGGCATACGAGAT            AACTCTCGG       TCTCGTGGGCTCGG
+</code></pre>
+<hr>
+<hr>
+<h2><a id="2STAGE_PCR_AND_LIBRARY_PREP_35"></a>2-STAGE PCR AND LIBRARY PREP:</h2>
+<ul>
+<li>Always use the correct primer pairs with an A and B adaptor.</li>
+<li>Use Hi Fidelity Hot Start Taq, and keep everything on ice to prevent bad primer-dimers from forming.</li>
+</ul>
+<p>In the first round of PCR we will use amplicon-specific primers that also include the Illumina adapters.
+These will be the same for every sample so they can be added together to the master mix.  Since we will be using the product of 22 cycles of PCR as a starting template for round 2, create your reaction conditions to pause after 22 cycles, at which point you can pull out a small amount of product for round 2, but then resume the reaction so you can do a gel check after 8 more cycles.</p>
+<p>To download a super convenient master mix calculator designed for this protocol, <a href="%5Bhttps://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx%5D">click this link.</a></p>
+<p>If you like doing it the hard way, here are the reaction ingredients…</p>
+<h3><a id="1st_Round_22_cycles_45"></a>1st Round (22 cycles)</h3>
+<table>
+<thead>
+<tr>
+<th><code>Reagent</code></th>
+<th><code>Final Conc</code></th>
+<th style="text-align:left"><code>1 x</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5X Buffer</strong></td>
+<td>1X</td>
+<td style="text-align:left">5 µL</td>
+</tr>
+<tr>
+<td><strong>GC Enhancer</strong></td>
+<td>10%</td>
+<td style="text-align:left">2.5 µL</td>
+</tr>
+<tr>
+<td><strong>dNTPs [10mM]</strong></td>
+<td>0.2 mM</td>
+<td style="text-align:left">0.5 µL</td>
+</tr>
+<tr>
+<td><strong>BSA [10mg/mL]</strong></td>
+<td>0.2 mM</td>
+<td style="text-align:left">0.25 µL</td>
+</tr>
+<tr>
+<td><strong>F Primer [10µM]</strong></td>
+<td>0.04µM</td>
+<td style="text-align:left">0.1 µL</td>
+</tr>
+<tr>
+<td><strong>R Primer [10µM]</strong></td>
+<td>0.04µM</td>
+<td style="text-align:left">0.01 µL</td>
+</tr>
+<tr>
+<td><strong>Q5 Polymerase</strong></td>
+<td>0.25 Units</td>
+<td style="text-align:left">0.125 µL</td>
+</tr>
+<tr>
+<td><strong>Template</strong></td>
+<td>—</td>
+<td style="text-align:left">1.4 µL</td>
+</tr>
+<tr>
+<td><strong>Water</strong></td>
+<td>—</td>
+<td style="text-align:left">15.025 µL</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Fungi Round 1</strong></p>
+<ul>
+<li>98 °C for 2 min, (98 °C for 15s | 52°C for 15s | 72 °C for 20s) x 22 cycles</li>
+<li>PAUSE -&gt; remove 1.4µL of into tubes containing 12.6µl water; cover plate and resume for 8-16 more cycles for a test gel.</li>
+<li>If the gel is successful, then the diluted PCR product from 22 cycles is added to round 2.</li>
+</ul>
+<p><strong>Bacteria Round 1</strong></p>
+<ul>
+<li>98 °C 2 min, (98 °C for 15s | 55°C for 15s | 72 °C for 20s) x 22</li>
+<li>PAUSE -&gt; remove 1.4µL of into tubes containing 12.6µl water; cover plate and resume for 8-16 more cycles for a test gel.</li>
+<li>If the gel is successful, then the diluted PCR product from 22 cycles is added to round 2.</li>
+</ul>
+<hr>
+<h3><a id="Second_round_22_more_cycles_74"></a>Second round (22 <em>more</em> cycles)</h3>
+<ul>
+<li>Same protocol for Bacteria and Fungi</li>
+<li>Pipette 1 µL of the appropriate i5/i7 <strong>index primers</strong> from the pre-filled plates into a new clean plate</li>
+<li>Keep track of which primer plate you use.  The current plate maps can be <a href="%5Bhttps://github.com/gzahn/Protocols/raw/master/i5-i7_Index_Primer_Maps_Oct-25-2015.xlsx%5D">downloaded here</a>.</li>
+</ul>
+<p>Pipette 22.9µL of round-2 master mix into each well and gently mix with the 1µL of index primers.  Finally, add 2.8 µL of the diluted amplicon from round 1 (the 22-cycle amplicon).</p>
+<p>The round-2 master mix reagents are also calculated on <a href="%5Bhttps://github.com/gzahn/Protocols/raw/master/2-Round_PCR_Calculator.xlsx%5D">that spreadsheet</a> from above, but here they are:</p>
+<table>
+<thead>
+<tr>
+<th><code>Reagent</code></th>
+<th><code>Final Conc</code></th>
+<th style="text-align:left"><code>1 x</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5X Buffer</strong></td>
+<td>1X</td>
+<td style="text-align:left">5 µL</td>
+</tr>
+<tr>
+<td><strong>GC Enhancer</strong></td>
+<td>10%</td>
+<td style="text-align:left">2.5 µL</td>
+</tr>
+<tr>
+<td><strong>dNTPs [10mM]</strong></td>
+<td>0.2 mM</td>
+<td style="text-align:left">0.5 µL</td>
+</tr>
+<tr>
+<td><strong>BSA [10mg/mL]</strong></td>
+<td>0.2 mM</td>
+<td style="text-align:left">0.25 µL</td>
+</tr>
+<tr>
+<td><strong>Q5 Polymerase</strong></td>
+<td>0.25 Units</td>
+<td style="text-align:left">0.125 µL</td>
+</tr>
+<tr>
+<td><strong>Water</strong></td>
+<td>—</td>
+<td style="text-align:left">15.025 µL</td>
+</tr>
+<tr>
+<td><strong>Template</strong></td>
+<td>—</td>
+<td style="text-align:left">2.8 µL</td>
+</tr>
+<tr>
+<td><strong>Primers</strong> <em>unique pair for each sample</em></td>
+<td>—</td>
+<td style="text-align:left">1 µL</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Fungi or Bacteria Round 2</strong></p>
+<ul>
+<li>98 °C for 2 min, (98 °C for 15s | 60°C for 15s | 72 °C  for 30s) x 22</li>
+<li>72 °C for 2 min | 4 °C hold</li>
+</ul>
+<p><strong>Check on gel for product:</strong></p>
+<ul>
+<li>Fungal ITS should be ~400 bp</li>
+<li>Bacterial 16S (V4) should be ~450 bp</li>
+<li>Keep in mind that you now have some rather long adapter and primer sequences flanking to your amplicons as well so don’t be too worried if your bands are larger than this</li>
+</ul>
+<hr>
+<hr>
+<h2><a id="CLEAN_UP_YOUR_PRODUCTS_109"></a>CLEAN UP YOUR PRODUCTS</h2>
+<p>If you have significant primer dimers in your amplification you will probably want to reduce these before normalization or they could be over-represented in your normalized product.</p>
+<ul>
+<li><em>Note:  This pre-normalization cleanup is not necessary if you don’t have significant primer-dimer contamination in your samples</em></li>
+<li><em>Be sure to carry out this step (if performed) and all subsequent steps in the post-PCR area of the lab</em></li>
+</ul>
+<p>Use AMpureXP beads (we will use a home-brewed version of this: see MagNA composition in the SPRI-Bead note in the lab’s “Protocols” folder). Or <a href="%5Bhttps://github.com/gzahn/Protocols/raw/master/SPRI-Bead.pdf%5D">click here to download directly</a>.
+Determine the ratio of beads to use to use to exclude all fragments shorter than PCR product.  You can practice with different concentrations of beads on 100 bp ladder: see figure S5 in the SPRI bead note for inspiration (probably about ~0.8X will be about right). For example if using 0.8Xreaction with a sample volume of 50ul, the volume of MagNA per reaction to add will be: .8x50ul = 40ul of MagNA.</p>
+<ol>
+<li>Make sure the beads are at room temp.</li>
+<li>Shake beads to Resuspend any settled particules.</li>
+<li>Add beads to PCR reaction, mix up and down x10.</li>
+<li>Incubate at room temp for 5min.</li>
+<li>Place plate on magnetic plate for 2mins. Wait for the solution to clear.</li>
+<li>Aspirate the clear solution and discard.</li>
+<li>Add 200ul of fresh 70% ethanol to each well.</li>
+<li>Incubate for 30secs @ room temp.</li>
+<li>Aspirate the ethanol.</li>
+<li>Repeat the ethanol step.</li>
+<li>Dry for 15min @ room temp (longer if necessary until no visible ethanol).</li>
+<li>Remove the plate from the magnet.</li>
+<li>Add 40ul of 0.1x TE and mix up and down x10.</li>
+<li>Place plate on the magnet for 1min.</li>
+<li>Transfer the eluant to a new 96 well plate.</li>
+</ol>
+<hr>
+<hr>
+<h2><a id="Normalization_of_samples_using_SequalPrep_Normalization_Plates_139"></a>Normalization of samples using SequalPrep Normalization Plates</h2>
+<ul>
+<li>Be sure to perform this step in the post-pcr area of the lab.</li>
+<li>Be careful not to scrape the sides of the wells in the normalization plate, as the DNA-binding coating is adhered to the inner surface of the wells.</li>
+<li>You can follow this link if you want to view the complete <a href="%5Bhttps://tools.thermofisher.com/content/sfs/manuals/sequalprep_platekit_man.pdf%5D">normalization plate user manual</a>.</li>
+</ul>
+<p>This kit is designed to eliminate the tedious step of quantification and equalization of each of your samples before pooling.  It works by binding a <em>fixed amount</em> of DNA to the sides of the wells. After binding is completed you may remove the excess amplicon solution and store it at -20°C for up to 30 days to perform additional purifications at a later time.</p>
+<p>See the user manual for detailed instructions, but the general workflow is as follows:</p>
+<ol>
+<li>Transfer cleaned-up PCR product into the Normalization Plate along with an equivalent amount of binding buffer.</li>
+<li>Wait for one hour.</li>
+<li>Carefully avoiding the walls of the plate with your pipette tip, remove the amplicon/buffer mixture and save in a clean 96-well plate for later use.</li>
+<li>Add 50 µL Wash Buffer to the wells, pipette up and down a few times to wash, and aspirate from the wells. Try to remove as mush wash buffer as possible.</li>
+<li>Add 20 µL Elution Buffer to each well. <em>Do not use water for elution.</em> Seal the plate with foil, vortex and spin down.</li>
+<li>Incubate at room temp for 5 minutes</li>
+<li>Transfer and pool the DNA as desired.</li>
+</ol>
+<hr>
+<hr>
+<p><em>More coming soon…</em></p>
+<ul>
+<li>BioAnalyzer prep and analysis</li>
+<li>Sample Submission</li>
+<li>Troubleshooting</li>
+</ul>
+
+</body></html>
