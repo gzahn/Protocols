@@ -2,8 +2,9 @@
 
 Important File List:
 
-|README.dm|							This file|
+|Filename| Description|
 --------|--------|
+|README.dm|							This file|
 |SPRI-Bead.pdf	|					Demonstrates composition and use of Magna Beads|
 |i5-i7_Index_Primer_Maps_*.xlsx	|	Plate maps for index primer pairings (used in round 2 of 2-PCR Illumina protocol)|
 |media_recipes_gz.txt	|			Selecet media recipes used for fungal endophyte isolation and culture|
