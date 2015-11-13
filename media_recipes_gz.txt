@@ -1,0 +1,48 @@
+Media recipes
+-------------
+
+Malt Extract Agar (MEA)
+
+1000 mL dH2O
+20 g Malt Extract
+2 g Yeast Extract
+10 g Dextrose
+0.75 g Potassium Phosphate
+
+Autoclave at 121 C for 20 minutes in loosely-capped jars (leave plenty of headspace to prevent boilover)
+Allow to cool to below 80 C
+
+Add the following antibiotics (filter-sterilized):
+
+Streptomycin [30 ug/mL]
+Kanamycin [50 ug/mL]
+
+-------------
+
+Weak Malt Extract Agar (wMEA)
+
+1000 mL dH2O
+15 g Bacto Agar
+1 g Yeast Extract
+2 g Malt Extract
+1 g Dextrose
+0.75 g Dibasic Potassium Phosphate
+
+
+Autoclave at 121 C for 20 minutes in loosely-capped jars (leave plenty of headspace to prevent boilover)
+Allow to cool to below 80 C
+
+Add the following antibiotics (filter-sterilized):
+
+Streptomycin [30 ug/mL]
+Kanamycin [50 ug/mL]
+
+-------------
+
+V8 Agar (V8) - Useful to induce sexuality/sporulation in various fungi
+
+substitute 180 mL of dH2O from wMEA Agar recipe for 1 small can of regular V8 (180 mL)
+same as wMEA otherwise
+
+-------------
+
