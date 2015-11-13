@@ -1,7 +1,35 @@
-Media recipes
--------------
+SELECT MEDIA RECIPES
+---------------
+
+Potato Dextrose Agar (PDA) 
+---------------
+1000 mL Distilled water  
+4.0 g Potato starch 
+20.0 g Glucose  
+15.0 g Agar 
+
+A general purpose sporulation medium available commercially (Difco). 
+Preparation Suspend 39 g of powdered medium in 1 L water. Autoclave at 121C /15 minutes.  
+
+---------------
+
+Corn Meal Agar
+---------------
+Cornmeal (yellow) 50 g 
+Agar 15 g 
+Distilled water 1 L 
+
+A nutritionally deficient medium used to promote sporulation, 
+especially in ascomycetes and some dematiaceous hyphomycetes 
+Preparation: Mix cornmeal in 500 ml water. Heat for one hour in a 52 C waterbath. 
+Filter through cheesecloth (filtrate does not need to be clear). 
+Discard cornmeal residue. Bring volume of filtrate up to 1000 ml. Divide into 2 1L flasks. 
+Add 7.5 g of agar to each flask. Boil to dissolve agar. Autoclave  121C/15 minutes
+
+---------------
 
 Malt Extract Agar (MEA)
+---------------
 
 1000 mL dH2O
 20 g Malt Extract
@@ -9,7 +37,7 @@ Malt Extract Agar (MEA)
 10 g Dextrose
 0.75 g Potassium Phosphate
 
-Autoclave at 121 C for 20 minutes in loosely-capped jars (leave plenty of headspace to prevent boilover)
+Autoclave at 121 C for 20 minutes
 Allow to cool to below 80 C
 
 Add the following antibiotics (filter-sterilized):
@@ -20,6 +48,7 @@ Kanamycin [50 ug/mL]
 -------------
 
 Weak Malt Extract Agar (wMEA)
+-------------
 
 1000 mL dH2O
 15 g Bacto Agar
@@ -39,10 +68,54 @@ Kanamycin [50 ug/mL]
 
 -------------
 
-V8 Agar (V8) - Useful to induce sexuality/sporulation in various fungi
+V8 wMEA Agar (V8 wMEA) - Useful to induce sexuality/sporulation in various fungi
+-------------
 
 substitute 180 mL of dH2O from wMEA Agar recipe for 1 small can of regular V8 (180 mL)
 same as wMEA otherwise
 
 -------------
 
+"Leaf Agar"
+-------------
+(Used to include "magical" leaf components to isolate tricky enophytic fungi)
+
+200 g fresh leaf material, preferrably from host of interest
+wMEA agar ingredients
+
+Steep leaves in 500-800 mL of dH2O in a flask set into a hot water bath at 65 C for 1 hour
+Strain leaf matter and squeeze leaves to extract as much liquid as possible
+Add dH2O to make 1000 mL and use as liquid for standard wMEA Agar
+
+-------------
+
+Minimal Nutrient Media plus Kanamycin/Penicillin (500 mL)
+-------------
+Agar: 6 g
+Glucose: 5 g
+Malt extract: 1.5 g
+KH2PO4: 5 mL
+MgSO4: 5 mL
+CaCl2: 5 mL
+NaCl: 5 mL
+FeEDTA: 5 mL
+(NH4)3PO4: 5 mL
+Thiamine HCl: 50 µl
+Water: 470 mL
+*Add these chemicals AFTER the media has been autoclaved! 
+Kanamycin: 25 mg
+Ampicillin: 25 mg
+
+-------------
+
+To make more MNM:
+-------------
+
+Chemical	Amount in 50 mL		mL to add to media	Final concentration in media
+KH2PO4		2.5 g			5 mL			500 mg/L
+MgSO4*7H2O	0.75 g			5 mL			150 mg/L
+CaCl2*2H2O	0.25 g			5 mL			50 mg/L
+NaCl		0.125			5 mL			25 mg/L
+FeEDTA		0.050g			5 mL			20 mg/L
+(NH4)3PO4	1.25 g			5 mL			250 mg/L
+Thiamine HCl	0.0001 mg in 1L (!)	50 µL			0.0001 mg/L
