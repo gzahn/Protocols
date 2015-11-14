@@ -1,0 +1,91 @@
+##GelRed Electrophoresis Protocol
+
+Geoff Zahn
+
+Last updated – Oct. 23, 2015
+
+
+-----------------
+###Kabir's Sodium Borate Buffer Recipe
+
+SB Buffer (20X Stock Solution)
+
+-8 g NaOH (mw=40)
+-47 g boric acid (mw = 61.83)
+-900ml ddH20
+-Dissolve NaOH & boric acid in 900ml ddH20 using magnetic stirrer.  After all particles are dissolved bring up to 1000ml.  Final solution should be around pH 8.2
+-Dilute 50ml of 20X SB buffer into 950ml of ddH20 for a 1x SB buffer solution
+-----------------
+
+###Electrophoresis w/ SB Buffer
+
+Depending on the number of samples you want to visualize, you will want to select one of three sizes of gel (Use the smallest gel possible, but remember to save room for a ladder):
+
+|   | 30 µL | 75µL | 150µL |
+| --- | --- | --- | --- |
+| Number of wells: | 8 – 24 | 12 – 40 | 50 – 200 |
+| Ingredients: | 30mL of 1X SB Buffer, 1µL of 10,000X GelRed, 0.3g Agarose | 75mL of 1X SB Buffer, 2.5µL of 10,000X GelRed, 0.75g Agarose | 150mL of 1X SB Buffer, 5µL of 10,000X GelRed, 1.5g Agarose |
+
+```Table 1 - These amounts are for a standard 1% agarose gel.  For more sensitive work, such as separation of similarly sized fragments, double the amount of agarose to make a 2% gel and run at a lower amperage for a longer period of time.```
+
+
+ Combine all ingredients (Table 1) in an uncapped, oversized beaker (to prevent bad messes or explosions), and microwave for 30 sec at a time, gently swirling after each 30 sec.  Once the liquid has come to a boil and all the agarose has been dissolved until clear, allow the hot mixture to cool until it is no longer too hot to touch.
+
+ Add the well comb(s) to your casting mold and pour the molten agar into the mold. Allow to cool until solid and somewhat translucent without disturbing it.  Gently remove the comb and lift the casting mold out of the gel box.  Turn it ¼ turn such that the wells are on the anode (black electrode) side so that the DNA will run through the gel towards the cathode (red electrode).  DNA is negatively charged and it "runs to red."
+
+
+-------------
+###Loading the DNA onto the gel
+
+
+**Wet loading:**
+
+
+For wet loading, fill the gel box with 1X SB until it covers the surface of the gel.  
+Mix individual PCR products (3-5µL) with 2µL of loading dye by pipetting up and down 
+several times on a clean sheet of parafilm (this helps the DNA stay in the wells and
+ remind you where you have already filled wells).  Load the DNA-Dye mixture into the
+ submerged wells very carefully, avoiding air bubbles.  Be sure to reserve one lane 
+ per row for a standardized DNA ladder.
+
+**Dry Loading:**
+
+For dry loading, put about 5ul of PCR product or DNA ladder into each well.  Fill the
+ Gel Box with 1X SB buffer until it reaches the top edge of the gel (do not let the 
+ buffer submerge the gel).  Run at 300mA for 1 minute, then add 1X SB until the gel is 
+ submerged.  The DNA should now be "locked in" the gel and won't wash away.  Run at 300 
+ volts for about 15 minutes.  (This still needs to be optimized).  Visualize with UV light.
+
+
+
+**Reusing pre-stained gels**
+
+
+After imaging, gels pre-stained with GelRed may be melted down for reuse. This is not appropriate
+ for long-term storage (i.e. greater than 1 month).  If you are worried about reusing your gel with
+ PCR product still in it you may return it to the electrophoresis chamber and run it until the PCR 
+ product has left the gel, but this shouldn't be a problem in common practice.
+Simply cut up your gel and place it in a tightly sealed container in the dark at room temperature.  
+This may be microwaved until molten and re-cast as before.  Gels may be reused in this manner 2-4 times 
+before new agarose gels must be made.  Be sure to label your storage container with your name, date, and 
+contents (including GelRed concentration).
+
+
+
+###Staining DNA by Post Gel Staining
+
+For more precise determination of fragment size, it is not recommended to pre-stain the gel with GelRed.  For this application it is best to stain the gel after it has been run…
+
+Run gels as usual according to the standard protocol, but omit the GelRed stain from the gel recipe above.
+
+Dilute the GelRed 10,000X stock reagent ~3,300 fold to make a 3X staining solution in H2O or an electrophoresis buffer (e.g., 15 µL of GelRed 10,000X stock reagent added to 50 mL H2O or a buffer).  While GelRed 1X staining solution can also be used for post gel staining(e.g, 5µL GelRed 10,000X in 50 mL H2O or 1X SB), the sensitivity is generally less than with 3X staining solution.
+
+Carefully place the gel in a suitable container such as a petri dish, the lid of a pipet-tip box or a polypropylene container. Gently add a sufficient amount of the 3X staining solution to submerge the gel.
+
+Agitate the gel gently at room temperature for ~30 minutes. Optimal staining time may vary somewhat depending on the thickness of the gel and the percentage of agarose or polyacrylamide used. The staining solution can be reused at least 4-5 times. It is recommended to store the staining solution in a refrigerator (properly labeled) when not in use.
+
+-------------
+
+###GelRed toxicity and disposal
+
+ GelRed intercalates DNA and thus should not be considered safe.  Use gloves at all times when handling.  It has been engineered to be a deliberately large molecule, however, and is incapable of being passively transported into intact cells.  Because of this, it is considered safe to dispose of in the trash or down the sink drain.  Please do not drink it or put it into your eyes!
