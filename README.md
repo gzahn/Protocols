@@ -10,3 +10,4 @@
 |media_recipes_gz.txt	|			Selecet media recipes used for fungal endophyte isolation and culture|
 |Illumina_Protocols.html	|		Current lab protocol for 2-round PCR for target amplification and Illumina library prep|
 |2-Round_PCR_Calculator.xlsx   |	Master mix calculator for both PCR rounds in **Illumina_Protocols.html**; Just enter the number of samples|
+|GelRed_Protocol.pdf	|			Protocol for staining and visualizing PCR products on agarose gels using GelRed dye|
