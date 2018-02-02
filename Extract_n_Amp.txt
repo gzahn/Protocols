@@ -1,0 +1,26 @@
+Extracting DNA with Sigma Extract-n-Amp
+This is a "quick and dirty" method for DNA extraction from pure fungal cultures
+
+Equipment
+-Strip tubes and caps
+-Sharpie permanent pen
+-Kim wipes
+-Forceps
+-Ethanol
+-Ethanol burner
+-Extraction solution (kept in -20 freezer in tubes with “ES” on top”)
+-Dilution solution (kept in fridge in tubes with “D” on top, (Dilution solution is 3% Bovine Serum Albumin)
+-Pipetteman and filtered tips
+-Lab notebook
+
+1) Set-up strip tubes in a rack with 20 ul of extraction solution in each tube, label caps with sharpie pen
+2) With sterilized forceps remove tiny piece of fungal tissue from pure culture, place in extraction solution and grind with tip of forceps
+3) Write down in your notebook all the samples that you have put in extraction solution
+4) Once all samples are in the extraction solution put the caps firmly on the strip tubes 
+5) Put strip tubes on thermal cycler. Use a 20 minute program that has one 10 minute cycle at 65 and one 10 minute cycle at 95. 
+6) After the program is complete, take the tubes off the machine and add 60 ul of the dilution solution to each tube, being very careful not to get any of the extraction on the pipette tip.
+7) Put samples in fridge
+8) Clean up 
+You’re done!
+
+The final concentrations should be 1 part extraction solution to 3 parts dilution solution

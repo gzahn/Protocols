@@ -1,0 +1,11 @@
+MagNA Bead Recipe:
+
+0.1% carboxyl-modified Sera-Mag Magnetic Speed-beads (FisherSci, cat.#: 09-981-123) 
+18% PEG-8000 (w/v) (e.g. Sigma Aldrich, cat.#: 89510) 
+1M NaCl 
+10mM Tris-HCl, ph 8.0 
+1 mM EDTA, pH 8.0 
+Optional: 0.05% Tween 20 
+
+note: beads contain sodium azide, wash beads 2x with water or TE before addition.  
+Store MagNA kit in the refrigerator in the dark and vigorously mix before use; kit is stable for at least 3 months. 

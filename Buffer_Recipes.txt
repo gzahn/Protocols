@@ -1,0 +1,25 @@
+To make 1M Tris Buffer
+
+Procedure: 
+
+1. Dissolve 121.1 g of Tris base in 800 ml of H2O. 
+2. Adjust pH to 8.0 by adding 42 ml of concentrated HCL in the fume hood with a glass pipette. 
+3. Allow the solution to cool to room temperature before making the final adjustments to the pH.
+4. Adjust the volume to 1 L with H20.
+5. Split in to two bottles to autoclave so that it doesn’t overflow. 
+6. ONLY autoclave if you have been fully trained on how to do so. 
+
+----------------------------
+
+To make SB Buffer (20X Stock Solution)
+
+1. Weigh out 8 g NaOH pellets in a weigh boat
+2. Add 900mL of DI water to a 1L bottle
+3. Add the NaOH to the bottle
+4. Weigh out 47g Boric Acid pellets (mw 61.83)
+5. Add to bottle with water and NaOH
+6. Add a stir bar and put it on the magnetic stirrer to dissolve. 
+After all the particles are dissolved bring up to 1000ml.  Final solution should be around pH 8.2
+
+To make 1X SB Buffer, dilute 50ml of 20X SB buffer into 950ml of ddH20 
+This 1X is to use with running gels and making agarose gels
