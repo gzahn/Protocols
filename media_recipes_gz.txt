@@ -34,8 +34,7 @@ Malt Extract Agar (MEA)
 1000 mL dH2O
 20 g Malt Extract
 2 g Yeast Extract
-10 g Dextrose
-0.75 g Potassium Phosphate
+0.75 g Potassium Phosphate (Monobasic)
 
 Autoclave at 121 C for 20 minutes
 Allow to cool to below 80 C
@@ -43,7 +42,10 @@ Allow to cool to below 80 C
 Add the following antibiotics (filter-sterilized):
 
 Streptomycin [30 ug/mL]
-Kanamycin [50 ug/mL]
+Kanamycin [30 ug/mL]
+
+*Antibiotic stocks are in fridge and freezer, stored at [50 mg/mL]
+*Add 150 uL of each antibiotic for every 500 mL of media you are making.
 
 -------------
 
