@@ -9,7 +9,7 @@ Equipment
 -Ethanol
 -Ethanol burner
 -Extraction solution (kept in -20 freezer in tubes with “ES” on top”)
--Dilution solution (kept in fridge in tubes with “D” on top, (Dilution solution is 3% Bovine Serum Albumin)
+-Dilution solution (kept in fridge in tubes with “3% BSA” on top, (Dilution solution is 3% Bovine Serum Albumin)
 -Pipetteman and filtered tips
 -Lab notebook
 
