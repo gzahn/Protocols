@@ -32,7 +32,8 @@ Malt Extract Agar (MEA)
 ---------------
 
 1000 mL dH2O
-20 g Malt Extract
+15 g Bacto Agar
+2 g Malt Extract
 2 g Yeast Extract
 0.75 g Potassium Phosphate (Monobasic)
 
