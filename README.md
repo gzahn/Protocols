@@ -1,4 +1,4 @@
-## Protocols for the Amend lab group being used by gzahn
+## Zahn lab protocols
 
 ###Important File List:
 
